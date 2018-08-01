@@ -123,12 +123,28 @@ def main():
 # SoundCloud
 ####################################################################
 
-
 def process_soundcloud(vargs):
     """
     Main SoundCloud path.
     """
-
+    print("""
+    #      ___                                  _                      ___                                      _              __                           _   
+    #     F __".    ____     _ ___    ____     FJ __      ____        F __".   ____     _    _    _ ___      ___FJ     ____    LJ    ____     _    _     ___FJ  
+    #    J |--\ L  F __ J   J '__ ", F __ J   J |/ /L    F ___J      J (___|  F __ J   J |  | L  J '__ J    F __  L   F ___J.  FJ   F __ J   J |  | L   F __  L 
+    #    | |  J | | _____J  | |__|-J| _____J  |    \    | '----_     J\___ \ | |--| |  | |  | |  | |__| |  | |--| |  | |---LJ J  L | |--| |  | |  | |  | |--| | 
+    #    F L__J | F L___--. F L  `-'F L___--. F L:\ J   )-____  L   .--___) \F L__J J  F L__J J  F L  J J  F L__J J  F L___--.J  L F L__J J  F L__J J  F L__J J 
+    #   J______/FJ\______/FJ__L    J\______/FJ__L \\_J.J\______/F   J\______J\______/FJ\____,__LJ__L  J__LJ\____,__LJ\______/FJ__LJ\______/FJ\____,__LJ\____,__L
+    #   |______F  J______F |__L     J______F |__L  \L_| J______F     J______FJ______F  J____,__F|__L  J__| J____,__F J______F |__| J______F  J____,__F J____,__F
+    #     F __".   ____     _ ___    ___ _    _ ___      ____     _ ___                                                                                         
+    #    J (___|  F ___J.  J '__ ", F __` L  J '__ J    F __ J   J '__ ",                                                                                       
+    #    J\___ \ | |---LJ  | |__|-J| |--| |  | |--| |  | _____J  | |__|-J                                                                                       
+    #   .--___) \F L___--. F L  `-'F L__J J  F L__J J  F L___--. F L  `-'                                                                                       
+    #   J\______J\______/FJ__L    J\____,__LJ  _____/LJ\______/FJ__L                                                                                            
+    #    J______FJ______F |__L     J____,__F|_J_____F  J______F |__L                                                                                            
+    #
+                                            L_J
+    """)                                                                                                                 
+    
     artist_url = vargs['artist_url']
     track_permalink = vargs['track']
     keep_previews = vargs['keep']
